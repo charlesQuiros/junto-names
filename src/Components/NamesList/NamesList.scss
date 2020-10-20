@@ -1,0 +1,87 @@
+.namesList-container {
+  padding-top: 8rem;
+  background-color: whitesmoke;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px#104e4e;
+}
+
+.namesList-select-container {
+  text-align: right;
+  padding-right: 3rem;
+}
+select {
+  border: none;
+  webkit-appearance: none;
+  moz-appearance: none;
+  appearance: none;
+  ms-appearance: none; /* get rid of default appearance for IE8, 9 and 10*/
+}
+
+.namesList-icon {
+  margin-right: 0.4rem;
+  height: 2rem;
+}
+
+.namesList-select {
+  height: 20px;
+  width: 30px;
+  padding: 10px 4px;
+  background-color: #d26d6d;
+  opacity: 0.8;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s;
+}
+
+.namesList-select:hover {
+  box-shadow: 0 1px 2px #9dc0c0;
+  opacity: 1;
+}
+
+.namesList {
+  align-items: center;
+}
+
+.namesList-container {
+  margin-top: 7rem;
+  padding-top: 20px;
+}
+
+.namesList-ol {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+  margin-top: 3rem;
+  padding: 0%;
+}
+
+.namesList-li {
+  counter-increment: my-awesome-counter;
+  font-family: Cochin;
+  font-size: 20px;
+  padding: 0.1rem;
+  margin-bottom: 3rem;
+  display: block;
+  width: 100%;
+  color: #104e4e;
+  transition: background-color 0.3s ease-in-out;
+  height: 6rem;
+}
+
+.namesList-li:hover {
+  background-color: white;
+  box-shadow: 0 1px 4px 1px #9dc0c0;
+}
+
+.namesList-li:before {
+  content: counter(my-awesome-counter) ". ";
+  color: salmon;
+  font-weight: bold;
+  display: block;
+  font-size: 16px;
+}
+
+.namesList-title {
+  padding: 6px;
+  margin-top: 6px;
+}

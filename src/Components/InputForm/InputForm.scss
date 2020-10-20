@@ -1,0 +1,54 @@
+$black: #000000;
+$cornflower-lilac: #ffaea9;
+$salmon: #ff7b73;
+$white: #ffffff;
+$your-pink: #ffcccc;
+$light-green: #d0e99d;
+
+.inputForm {
+  font-size: 12px; // change value to scale
+  font-family: Roboto, sans-serif;
+  margin: 1rem;
+  display: grid;
+  place-items: center;
+}
+
+.inputForm-input {
+  padding: 8px;
+  display: grid;
+  border: none;
+  border-bottom: 2px solid #104e4e;
+  margin-bottom: 1rem;
+  width: 18rem;
+  outline: none;
+  transition: background-color 0.3s ease-in-out;
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.inputForm-input:focus {
+  background-color: whitesmoke;
+  border-radius: 4px;
+}
+
+.inputForm-button {
+  border-radius: 4px;
+  background-color: #d26d6d;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.inputForm-button:hover {
+  box-shadow: 0 2px 5px #9dc0c0;
+  opacity: 1;
+}
